@@ -1,0 +1,56 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html{
+    font-size: 0.65rem;
+}
+.card{
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    justify-content: space-between;
+    background-color: dimgrey;
+    border-radius: 25px;
+    font-size: 1.6rem;
+}
+.card h3{
+    font-size: 3rem;
+    color:white
+}
+.card img {
+    height: 200px;
+    margin: 1rem;
+}
+.card--properties{
+    color:white;
+    font-weight: 700;
+    text-align: start;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.buttons button{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color: #c1fa6c;
+    border: .3rem solid #314e1c;
+    color: black;
+    font-size: 2rem;
+    font-weight: 900;
+    transition: all 150ms;
+}
+.buttons button:hover{
+    transform:translateY(-5px);
+    cursor: pointer;
+}
+.buttons button:active{
+    transform: translateY(3px);
+}
