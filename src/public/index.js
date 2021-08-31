@@ -2,10 +2,10 @@ let rickCounter = 0;
 const API = 'https://rickandmortyapi.com/api/character/?name=';
 let maxRickCounter;
 const rickCard = {
-    'name': document.getElementById('rick-name'),
-    'img' : document.getElementById('rick-img'),
-    'origin': document.getElementById('rick-origin'),
-    'location'   : document.getElementById('rick-location'),
+    'name':     document.getElementById('rick-name'),
+    'img' :     document.getElementById('rick-img'),
+    'origin':   document.getElementById('rick-origin'),
+    'location': document.getElementById('rick-location'),
     'state': document.getElementById('rick-state')
 };
 
